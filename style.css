@@ -25,6 +25,7 @@ body{
 }
 
 .logo{
+    display: flex;
     width: 50px;
     margin: 0 1em;
 }
@@ -87,10 +88,12 @@ body{
 }
 
 .lf .button-contact{
-    background-color: #EE3A90;
     font-family: 'Figtree', sans-serif;
-    padding: 15px 70px;
+    background-color: #EE3A90;
     color: white;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: 500;
     border: none;
     box-shadow: 2px 5px 15px rgba(255, 39, 219, 0.5);
 }
