@@ -95,8 +95,12 @@ body{
     box-shadow: 2px 5px 15px rgba(255, 39, 219, 0.5);
 }
 
+.lf .button-contact:hover{
+    background-color: #db3586;
+}
+
 .rt{
-    background-image: url(media/main-img-side.png);
+    background-image: url(./Media/main-img-side.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
