@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 60px 100px 80px;
+    font-family: 'Figtree', sans-serif;
+}
+.main{
+    width: 1400px;
+    height: 980px;
+    display: grid;
+    grid-template-rows: 50px auto;
+    gap: 80px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 50px;
+    margin: 0 1em;
+}
+
+.nav-list{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0 5em;
+   gap: 30px;
+   font-weight: 600;
+   
+}
+
+.list-item{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color: #656B8E;
+}
+
+.link:hover{
+    color: #EE3A90;
+}
+
+
+/* -------------------------- */
+
+.content{
+    background-color: #F9F9FC;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.lf{
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lf h1{
+    text-align: start;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.lf span{
+    color: #EE3A90;
+}
+
+.lf p{
+    text-align: start;
+    font-size: 22px;
+
+}
+
+.lf .button-contact{
+    background-color: #EE3A90;
+    font-family: 'Figtree', sans-serif;
+    margin-top: 50px;
+    padding: 15px 70px;
+    color: white;
+    border: none;
+    box-shadow: 2px 5px 15px rgba(255, 39, 219, 0.5);
+}
+
+.rt{
+    background-image: url(media/main-img-side.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
